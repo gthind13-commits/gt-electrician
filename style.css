@@ -12,11 +12,6 @@ header {
   text-align: center;
 }
 
-nav a {
-  color: #fff;
-  margin: 0 10px;
-  text-decoration: none;
-}
 
 .hero {
   background: #ffd700;
@@ -30,11 +25,7 @@ nav a {
   margin: auto;
 }
 
-.gallery img {
-  width: 30%;
-  margin: 1%;
-  border-radius: 5px;
-}
+
 
 footer {
   background: #222;
@@ -42,3 +33,27 @@ footer {
   text-align: center;
   padding: 10px;
 }
+.gallery img {
+  width: 100%;
+  max-height: 70vh;
+  object-fit: cover;
+  border-radius: 5px;
+}
+nav a {
+  color: #222;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffd700;
+}
+header nav a {
+  color: #fff;
+}
+
+header nav a:hover {
+  color: #ffd700;
+}
+
