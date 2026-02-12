@@ -57,9 +57,10 @@ header nav a:hover {
   color: #ffd700;
 }
 .banner {
-  background: #f9fafb;   /* soft light grey */
+  background: #eef2f7;  /* soft cool grey */
   padding: 15px 0;
-  border-bottom: 1px solid #e0e0e0;
+  border-bottom: 1px solid #d1d5db;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
 
 .banner-container {
