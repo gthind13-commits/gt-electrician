@@ -51,7 +51,7 @@ header nav a:hover {
 header.banner {
   background: lightgrey;
   padding: 15px 0;
-  border-bottom: 2px solid #2563eb;  /* subtle blue line */
+  border-bottom: 2px solid grey;  /* subtle blue line */
 }
 
 
