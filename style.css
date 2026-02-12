@@ -57,17 +57,18 @@ header nav a:hover {
   color: #ffd700;
 }
 .banner {
-  background: linear-gradient(135deg, #111, #333);
-  color: #fff;
-  padding: 20px 15px;
+  background: #f9fafb;   /* soft light grey */
+  padding: 15px 0;
+  border-bottom: 1px solid #e0e0e0;
 }
 
 .banner-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1100px;
+  max-width: 1200px;
   margin: auto;
+  padding: 0 20px;
 }
 
 .logo-title {
@@ -76,25 +77,26 @@ header nav a:hover {
 }
 
 .logo-title img {
-  height: 60px;
-  margin-right: 15px;
+  height: 55px;
+  margin-right: 12px;
 }
 
 .logo-title h1 {
   margin: 0;
-  font-size: 1.8rem;
-  letter-spacing: 2px;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #1f2937;   /* dark grey */
+  letter-spacing: 1px;
 }
 
 .banner nav a {
-  color: #fff;
-  margin: 0 15px;
+  margin-left: 25px;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: 600;
+  color: #374151;   /* professional dark grey */
+  transition: color 0.3s ease;
 }
 
 .banner nav a:hover {
-  color: #ffd700;
+  color: #2563eb;   /* clean professional blue */
 }
-
-
