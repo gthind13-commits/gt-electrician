@@ -49,11 +49,11 @@ header nav a:hover {
   color: #ffd700;
 }
 header.banner {
-  background: #eef2f7;
+  background: #1f2937;
   padding: 15px 0;
-  border-bottom: 1px solid #d1d5db;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  border-bottom: 3px solid #2563eb; /* subtle blue accent */
 }
+
 
 .banner-container {
   display: flex;
@@ -81,7 +81,7 @@ header.banner {
   color: #1f2937;   /* dark grey */
   letter-spacing: 1px;
 }
-
+/* 
 .banner nav a {
   margin-left: 25px;
   text-decoration: none;
@@ -91,5 +91,12 @@ header.banner {
 }
 
 .banner nav a:hover {
-  color: #2563eb;   /* clean professional blue */
+  color: #2563eb;   clean professional blue 
+}*/
+.banner nav a {
+  color: #ffffff;
+}
+
+.banner nav a:hover {
+  color: #60a5fa;
 }
