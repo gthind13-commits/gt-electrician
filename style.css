@@ -17,14 +17,6 @@ body {
   margin: auto;
 }
 
-
-
-footer {
-  background: #222;
-  color: #fff;
-  text-align: center;
-  padding: 10px;
-}
 .gallery img {
   width: 100%;
   max-height: 70vh;
@@ -139,7 +131,7 @@ header.banner {
 }
 
 .footer-content img {
-  height: 70px;
+  height: 30px;
   width: auto;
   margin-bottom: 15px;
 }
