@@ -49,7 +49,7 @@ header nav a:hover {
   color: #ffd700;
 }
 header.banner {
-  background: #dbe3ea;
+  background: grey;
   padding: 15px 0;
   border-bottom: 2px solid #2563eb;  /* subtle blue line */
 }
