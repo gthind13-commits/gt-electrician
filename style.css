@@ -17,9 +17,13 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  background: linear-gradient(to right, #f8fafc, #eef2f7);
   padding: 40px 20px;
+
+  background-color: #f8fafc;
+  background-image: radial-gradient(#dbeafe 1px, transparent 1px);
+  background-size: 30px 30px;
 }
+
 
 .hero-content {
   max-width: 850px;
