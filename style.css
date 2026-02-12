@@ -70,9 +70,11 @@ header.banner {
 }
 
 .logo-title img {
-  height: 80px;
-  margin-right: 12px;
+  height: 85px;
+  width: auto;
+  animation: fadeUp 1s ease forwards;
 }
+
 
 .logo-title h1 {
   margin: 0;
@@ -84,7 +86,46 @@ header.banner {
 
 .banner nav a {
   color: #1f2937;
+  margin-left: 25px;
+  text-decoration: none;
+  font-weight: 600;
+  position: relative;
+  transition: color 0.3s ease;
 }
+
+/* Underline animation */
+.banner nav a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  width: 0%;
+  height: 2px;
+  background: #2563eb;
+  transition: width 0.3s ease;
+}
+
+.banner nav a:hover::after {
+  width: 100%;
+}
+
+/* Fade In Animation */
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Apply to hero section */
+.hero-text {
+  animation: fadeUp 1s ease forwards;
+}
+
 
 .banner nav a:hover {
   color: #2563eb;
