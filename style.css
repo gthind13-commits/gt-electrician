@@ -125,24 +125,32 @@ header.banner {
 .footer {
   background: #1f2937;
   color: #ffffff;
-  text-align: center;
-  padding: 40px 20px;
+  padding: 30px 20px;
   margin-top: 60px;
 }
 
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;              /* space between items */
+  flex-wrap: wrap;        /* keeps responsive on small screens */
+  text-align: center;
+}
+
 .footer-content img {
-  height: 60px;
+  height: 55px;
   width: auto;
-  margin-bottom: 15px;
 }
 
 .footer-content h3 {
-  margin: 10px 0 5px 0;
-  font-size: 1.2rem;
+  margin: 0;
+  font-size: 1.1rem;
   letter-spacing: 1px;
 }
 
 .footer-content p {
+  margin: 0;
   font-size: 0.9rem;
   color: #d1d5db;
 }
