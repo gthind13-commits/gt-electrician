@@ -130,4 +130,28 @@ header.banner {
 .banner nav a:hover {
   color: #2563eb;
 }
+.footer {
+  background: #1f2937;
+  color: #ffffff;
+  text-align: center;
+  padding: 40px 20px;
+  margin-top: 60px;
+}
+
+.footer-content img {
+  height: 70px;
+  width: auto;
+  margin-bottom: 15px;
+}
+
+.footer-content h3 {
+  margin: 10px 0 5px 0;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+}
+
+.footer-content p {
+  font-size: 0.9rem;
+  color: #d1d5db;
+}
 
