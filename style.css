@@ -56,4 +56,45 @@ header nav a {
 header nav a:hover {
   color: #ffd700;
 }
+.banner {
+  background: linear-gradient(135deg, #111, #333);
+  color: #fff;
+  padding: 20px 15px;
+}
+
+.banner-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+}
+
+.logo-title img {
+  height: 60px;
+  margin-right: 15px;
+}
+
+.logo-title h1 {
+  margin: 0;
+  font-size: 1.8rem;
+  letter-spacing: 2px;
+}
+
+.banner nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.banner nav a:hover {
+  color: #ffd700;
+}
+
 
