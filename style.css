@@ -289,3 +289,7 @@ header.banner {
     display: flex;
   }
 }
+.menu-toggle {
+  font-size: 30px;
+  font-weight: bold;
+}
